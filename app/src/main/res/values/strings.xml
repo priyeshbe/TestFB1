@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestFB1</string>
+
+    <string-array name="genres">
+    <item>Rock</item>
+    <item>Metal</item>
+    <item>Pop</item>
+    </string-array>
+</resources>

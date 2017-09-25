@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "272552715614",
+    "firebase_url": "https://myartist-515ae.firebaseio.com",
+    "project_id": "myartist-515ae",
+    "storage_bucket": "myartist-515ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272552715614:android:0d5e9a287270430c",
+        "android_client_info": {
+          "package_name": "com.beohar.priyesh.testfb1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272552715614-codd5ulghv3gbf4nrcu0h08ckah0fiqd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beohar.priyesh.testfb1",
+            "certificate_hash": "58b6dc72016f09c024cbe6bf4cb26cbe4b8862ed"
+          }
+        },
+        {
+          "client_id": "272552715614-gaf15vlt3l1qeoakh0iaj959qpfei9f6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA10VbVbkiOtbVCGudRTWhduQVcCsr1TU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272552715614-gaf15vlt3l1qeoakh0iaj959qpfei9f6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
