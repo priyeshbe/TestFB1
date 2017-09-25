@@ -151,12 +151,24 @@ public class MainActivity extends AppCompatActivity {
 
                 //iterating through all the nodes
                 for (DataSnapshot postSnapshot : dataSnapshot.getChildren()) {
-
-                    Toast.makeText(getApplicationContext(), "artist.getArtistName()", Toast.LENGTH_LONG).show();
+                    //getting artist
+                    Artist artist = postSnapshot.getValue(Artist.class);
+                    //adding artist to the list
+                    artists.add(artist);
+                    Toast.makeText(getApplicationContext(), artist.getArtistName(), Toast.LENGTH_LONG).show();
                 }
 
 
 
+
+
+
+
+                //creating adapter
+                ArtistList artistAdapter = new ArtistList(MainActivity.this, artists);
+                //attaching adapter to the listview
+
+                listViewArtists.setAdapter(artistAdapter);
 
             }
 
